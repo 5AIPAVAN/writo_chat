@@ -1,0 +1,28 @@
+.marquee-container {
+    width: 800px;
+    overflow: hidden;
+    whiteSpace: nowrap;
+    box-sizing: border-box;
+    border: 1px solid #ccc; /* Optional: add a border */
+    background-color: #f9f9f9; /* Optional: add a background color */
+    padding: 10px; /* Optional: add some padding */
+  }
+  
+  .marquee-content {
+    display: flex;
+    white-space: nowrap;
+  }
+  
+.card-body{
+    text-wrap: wrap;
+}
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  

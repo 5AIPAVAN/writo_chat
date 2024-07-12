@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fondamento:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
+.html{
+  scroll-behavior: smooth;
+
+}
+/* Services.css */
+.services-component {
+ /* Semi-transparent background */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 30; /* Ensure this is higher than the HeroSection */
+}
+.colour-item {
+  background-image: linear-gradient(#e66465, #9198e5);
+  -webkit-background-clip: text; 
+  background-clip: text;
+  color: transparent;
+}
+
+
+.nav-item:hover {
+  color: #1BB896;
+}
+
+.item1 {
+  font-family: 'Fondamento';
+}
+
+body {
+  overflow-x: hidden;
+  background: white;
+}
+
+.item2 {
+  font-family: 'PT Sans';
+}
+.item3{
+  font-family: 'Ibarra Real Nova';
+}
+.item4{
+  font-family: 'inter';
+}
+.item5{
+  font-family: 'Gochi Hand';
+
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.bg1 {
+  background: linear-gradient(131deg, #1ab79d96, #ffdf6f96);
+}
+
+/* HeroSection.css */
+ .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero-text h1 {
+  font-size: 2.5em;
+  color: #1BB896;
+  margin-bottom: 20px;
+  font-family: 'Fondamento';
+  font-size: 46px;
+}
+
+.hero-text h1 span {
+  display: block;
+  position: relative;
+}
+
+.hero-text h1 span::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  background-color: #ffa726;
+  bottom: -5px;
+  left: 0;
+}
+
+.hero-text p {
+  font-family: 'PT Sans';
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.hero-text button {
+  background-color: #488B80;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.about-button {
+  background-color: #488B80;
+  color: white;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.hero-text button:hover {
+  background-color: #218838;
+}
+
+.hero-image {
+  max-width: 40%;
+  text-align: center;
+}
+
+.hero-image img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.hero-image div {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+.item-5{
+  color: linear-gradient(to right, #DE3939 0, #BF3F52 20%, #0961E6 76%);;
+}
+
+
+.gradientheading{
+  font-size: clamp(3vh, 3.5vw, 3.5vh); 
+  font-weight: 650;
+  background: #CF3E6A;
+  background: linear-gradient(to right, #CF3E6A 10%, #0E90CF 95%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  .highlights{
+    font-size: 25px;
+    color: #ed7e0a;
+    font-family: "Sriracha", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .hero-text {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .hero-text h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .hero-text p {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .hero-text button {
+    font-size: 0.875em;
+    padding: 10px 20px;
+  }
+
+  .hero-image {
+    display: none;
+  }
+
+  .stats div h3 {
+    font-size: 1.25em;
+  }
+
+  .stats div p {
+    font-size: 0.875em;
+  }
+}
+@media (max-width: 768px) {
+  .text-white {
+    background-size: contain;
+  }
+}
+
+
+
+
+
+
+
+
+.scrollbar::-webkit-scrollbar{
+  width: 10px;
+}
+.scrollbar::-webkit-scrollbar-track{
+  @apply bg-slate-100 
+}
+.scrollbar::-webkit-scrollbar-thumb{
+  @apply bg-slate-200 rounded-full
+}

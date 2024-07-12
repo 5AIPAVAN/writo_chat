@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
+
+.outerhero3{
+    /* height: 70vh; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #d8f3ee;
+    
+   
+}
+
+.innerhero3{
+
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+    
+}
+
+
+
+.heroimagee3{
+    width: 470px;
+    height: 420px;
+    object-fit: contain;
+    margin-top: 45px;
+}
+
+.curvedline3{
+    height: 35px;
+}
+
+.yellowword{
+    color: #ed7e0a;
+    font-weight: 500;
+    font-family: "Solitreo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.con23{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+    gap:10px;
+    
+}
+
+.left3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+    padding: 30px;
+}
+
+.Greentitle3{
+    font-size: 30px;
+    color: #1BB896;
+    /* font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal; */
+  font-family: "Solitreo", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.Blacktitle3{
+    font-size: 20px;
+    color: black;
+    font-weight: 450;
+    line-height: 50px;
+}
+
+.test{
+
+    color: #1BB896;
+    
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.offer{
+    height: 111px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+   width: 500px;
+    padding-left: 75px;
+    padding-right: 75px;
+    background: #56cab6;
+    border-radius: 10px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+@media (max-width: 768px) {
+
+    .outerhero3{
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #d8f3ee;
+    }
+
+    .innerhero3{
+
+        width: 100%;
+        height: 100%;
+    /* padding: 25px; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background: #d8f3ee;
+    border-radius: 12px;
+    }
+
+    .left3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap:40px;
+        padding: 5px;
+    
+    }
+    .offer{
+        height: 100px;
+        width: 250px;
+        font-size: 15px;
+    font-weight: 250;
+    }
+
+ 
+}

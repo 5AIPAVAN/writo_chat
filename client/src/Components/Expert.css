@@ -1,0 +1,90 @@
+
+
+.outerexpert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f6faff;
+}
+
+.gradientheading{
+font-size: clamp(3vh, 3.5vw, 3.5vh); 
+font-weight: 650;
+background: #CF3E6A;
+background: linear-gradient(to right, #CF3E6A 10%, #0E90CF 95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+.innerexpert{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap:22px;
+    align-items: center;
+    padding: 20px;
+}
+
+.content{
+    width: 60%;
+    display:flex;
+    /* font-size: 22px; */
+    font-size: clamp(2.7vh, 3.5vw, 3vh);
+    font-weight: 500;
+    line-height: clamp(4vh, 4vw, 7vh); 
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.btn{
+    width: 50%;
+    background-color: #488b80;
+    font-weight: 600;
+}
+
+
+
+.imgg {
+    width: 100%;
+    height: auto; /* Ensures the aspect ratio is maintained */
+    display: block; /* Removes any extra space below the image */
+    max-width: 400px;
+}
+
+
+.para{
+    font-size: clamp(2.7vh, 3.5vw, 3vh); /* min size, preferred size, max size */
+}
+
+@media (max-width: 1280px) {
+    .innerexpert{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    }
+    .content{
+        width: 90%;
+        display:flex;
+        font-size: clamp(2.7vh, 3.5vw, 3vh);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 30px; 
+        font-weight: 500;
+        margin-top: 2vh;
+    }
+    /* .imgg{
+        width: 100%;
+    } */
+
+    .btn{
+        width: 90%;
+        background-color: #488b80;
+        font-weight: 600;
+    }
+  }

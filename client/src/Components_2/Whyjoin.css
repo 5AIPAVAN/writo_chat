@@ -1,0 +1,34 @@
+
+
+.outerwhyjoin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerwhyjoin{
+    width: 85%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.join{
+    padding: 15px;
+    width: 290px;
+    border: 1px solid green;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-weight: 500;
+}
+
+.joinheading{
+    font-size: 20px;
+    font-weight: 500;
+    color: green;
+}
+.joincontent{
+    padding: 5px;
+}

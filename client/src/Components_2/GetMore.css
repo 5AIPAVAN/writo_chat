@@ -1,0 +1,20 @@
+
+
+.outergetmore{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+
+.getbtn{
+    color:white;
+    font-weight: 500;
+    background-color: black;
+    padding: 15px;
+    border-radius: 15px;
+}

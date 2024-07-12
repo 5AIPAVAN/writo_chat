@@ -1,0 +1,96 @@
+
+
+
+.outerjourney{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: max-content;
+    
+}
+
+.innerjourney{
+    width: 90%;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box1{
+     width: 180px;
+     height: 195px;
+     text-align: start;
+     padding: 1.5vw;
+     font-weight: 600;
+      display: flex;
+      justify-content: center; 
+      border-radius: 8px;
+      margin-bottom: 20px;
+      position: relative; /* Set relative positioning for containing the absolute positioned image */
+}
+
+.inner-image1 {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    width: 58px;
+    height: 112px;
+    object-fit: cover;
+}
+
+.inner-image2 {
+    position: absolute;
+    bottom: 18px;
+    right: 7px;
+    width: 95px;
+    height: 93px;
+    object-fit: cover;
+}
+
+.inner-image3 {
+    position: absolute;
+    bottom: 10px;
+    right: -18px;
+    width: 97px;
+    height: 72px;
+    object-fit: cover;
+}
+
+.inner-image4 {
+    position: absolute;
+    bottom: 8px;
+    right: 0;
+    width: 100px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.notification-circle {
+    position: absolute;
+    top: -18px;
+    left: -18px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.hadmargin{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 516px) {
+    .hadmargin{
+        margin-top: 0px;
+    }
+    
+  }
+  
+

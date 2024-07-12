@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.full-screen-rectangle {
+  width: 100vw; /* 100% of viewport width */
+  height: 100vh; /* 100% of viewport height */
+  background-color: #ccc; /* Example background color */
+  /* Additional styles as needed */
+}
+.item1{
+  font-family: 'PT Sans'    ;
+}
+.custom-width{
+  width: 520px;
+}
+.bg1{
+  background: rgb(217,168,255);
+background: linear-gradient(187deg, rgba(217,168,255,0.850577731092437) 5%, rgba(254,253,255,1) 100%);
+}
+@media (max-width: 520px) {
+  .custom-width {
+    width: 340px; /* Adjust as needed */
+  }
+}
+@media screen and (max-width: 374px) {
+  .custom-width {
+    width: 140px; /* Adjust as needed */
+  }
+}
+/* Media query for small screens */
+.hero-section {
+  background-image: url('./assets/hero.png');
+  background-size: cover;
+}
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .hero-section {
+    background-size: 75%;
+    height: 300px; /* Adjust the height as needed */
+  }
+}
+
+/* Media query for medium screens */
+@media (max-width: 768px) {
+  .hero-section {
+    background-size: 85%;
+    height: 400px; /* Adjust the height as needed */
+  }
+}
+
+/* Media query for large screens */
+@media (max-width: 1024px) {
+  .hero-section {
+    background-size: 90%;
+    height: 450px; /* Adjust the height as needed */
+  }
+}
+
+/* Media query for extra large screens */
+@media (min-width: 1025px) {
+  .hero-section {
+    background-size: cover;
+    height: 500px; /* Adjust the height as needed */
+  }
+}

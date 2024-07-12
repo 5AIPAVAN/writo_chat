@@ -1,0 +1,101 @@
+
+.outercourse2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innercourse2{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.type2{
+    display: flex;
+    font-size: 18px; /* min size, preferred size, max size */
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+    background-color: #41c396;
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 1vw 8vw;
+}
+
+.outertype2{
+   margin: 1vw;
+}
+
+
+@media (max-width: 1016px) {
+
+    .innercourse2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (max-width: 765px) {
+
+    .innercourse2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .type2{
+        display: flex;
+        font-size: 13px; /* min size, preferred size, max size */
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: center;
+        background-color: #41c396;
+        color: white;
+        border-radius: 8px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 2vw 9vw;
+    }
+
+}
+
+
+@media (max-width: 540px) {
+
+    .innercourse2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .type2{
+        display: flex;
+        font-size: 10px; /* min size, preferred size, max size */
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        align-items: center;
+        background-color: #41c396;
+        color: white;
+        border-radius: 8px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        padding: 2vw 9vw;
+    }
+
+}

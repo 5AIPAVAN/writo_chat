@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+.outerhero{
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(131deg, #1ab79d96, #ffdf6f96);
+}
+
+.innerhero{
+
+    width: 90%;
+    padding: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.demobutton{
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.heroimagee{
+    width: 450px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.curvedline{
+    height: 35px;
+}
+
+
+
+.con2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:10px;
+    
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:40px;
+}
+
+.Greentitle{
+    font-size: 40px;
+    color: green;
+    /* font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal; */
+}
+
+.Blacktitle{
+    font-size: 45px;
+    color: black;
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+
+    .outerhero{
+        height: max-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(131deg, #1ab79d96, #ffdf6f96);
+    }
+
+    .innerhero{
+       padding: 3vh;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+ 
+}

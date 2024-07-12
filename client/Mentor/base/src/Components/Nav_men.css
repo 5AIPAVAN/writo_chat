@@ -1,0 +1,17 @@
+/* styles.css */
+.custom-width {
+    width: 440px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-width {
+      width: 200px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .custom-width {
+      width: 140px;
+    }
+  }
+  

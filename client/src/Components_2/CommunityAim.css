@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
+
+.outeraim{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aimheading{
+    font-size: 40px;
+    color: green;
+    font-family: "Solitreo", cursive;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+
+}
+
+.outeraim{
+    display: flex;
+    flex-direction: column;
+}
+
+.inneraim{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.aim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    max-width: 350px;
+}
+
+.aim_para{
+  padding:10px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 500;
+}

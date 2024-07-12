@@ -1,0 +1,11 @@
+.image-container {
+    position: relative;
+  }
+  
+  .overlay-img {
+    position: absolute;
+    top: 20%;
+    left: -50%;
+    z-index: 1; /* Ensure img2 overlays img1 */
+  }
+  

@@ -1,0 +1,20 @@
+.services-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.95); /* Slightly transparent background */
+    z-index: 20; /* Ensure this value is higher than other content */
+  }
+  
+  .nav-bar-container {
+    position: relative;
+    z-index: 10; /* Lower z-index to ensure the overlay covers it */
+  }
+  
+  .hero-section {
+    position: relative;
+    z-index: 1; /* Base z-index */
+  }
+  

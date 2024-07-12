@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Solitreo&display=swap');
+
+
+.outerabouthero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(131deg, #1ab79d96, #ffdf6f96);
+    padding:45px;
+}
+
+.innerabouthero{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.secc2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutheading{
+    font-size: 35px;
+    color: green;
+    font-family: "Solitreo", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aboutcommunity1{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.aboutcommunity2{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 55px;
+    padding: 20px;
+    max-width: 60%;
+}
+
+.aboutheroimage{
+    margin: 25px;
+}
+
+@media (max-width: 1192px) {
+
+    .secc2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutcommunity2{
+        font-size: 19px;
+        font-weight: 500;
+        padding: 20px;
+        max-width: 100%;
+        line-height: 40px;
+      
+    }
+
+    .innerabouthero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outerabouthero{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(131deg, #1ab79d96, #ffdf6f96);
+        padding:10px;
+    }
+    
+  
+ 
+}
